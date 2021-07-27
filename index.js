@@ -17,10 +17,12 @@ for(var i in questions){
   var userans = ask.question(questions[i]['question']);
   if( userans.toUpperCase() === questions[i]['ans'].toUpperCase()){ 
     score++;
-    console.log("You gussed it right");
+    console.log("You gussed it correct");
   }
   else {console.log("its " + questions[i]['ans']);}
   console.log(chalk.hex("#12BBFF").bold("<===========================>"))
 }
 
 console.log("Your score :" + score);
+
+console.log("Check highest score : \n" + highScore[0]['name'] + " : " + highScore[0]['score']);
