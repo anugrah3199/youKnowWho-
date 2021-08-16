@@ -11,7 +11,7 @@ var questions = [
    ans : "indian"},
    {question : "what's my favorite book? ",
    ans : "Surely you're joking Mr.Feynman"}];
-var highScore = [{name : "Anugrah" , score : 3}] 
+var highScore = [{name : "Anugrah" , score : 5}] 
 var score = 0;
 var name = ask.question("Hey ! what's your name ? ")
 console.log(chalk.keyword("green").bold("Hi " + name + " ! my name is Anugrah"));
