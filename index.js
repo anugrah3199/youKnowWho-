@@ -6,7 +6,11 @@ var questions = [
    {question : "What's my favorite color?",
    ans : "black"},
    {question : "what's my favorite movie? ",
-   ans : "inception"}];
+   ans : "inception"},
+   {question : "what's my favorite cuisine? ",
+   ans : "indian"},
+   {question : "what's my favorite book? ",
+   ans : "Surely you're joking Mr.Feynman"}];
 var highScore = [{name : "Anugrah" , score : 3}] 
 var score = 0;
 var name = ask.question("Hey ! what's your name ? ")
